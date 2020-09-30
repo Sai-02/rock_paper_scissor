@@ -6,14 +6,13 @@ int main()
 {
 
     int i, j, k, user, computer, scoreu, scorec;
-    char c, name[50], play;
+    int c, name[50], play;
 
-
-    printf("Press Y to play the game");
+    printf("press 1 to play");
     scanf("%c", &c);
     srand(time(NULL));
 
-    if (c == 'Y' || c == 'y')
+    if (c == 1)
     {
 
       label:  printf("\n\n\n Enter your name here \n\t\n");
@@ -253,5 +252,6 @@ int main()
     {
 
         printf("\n\n\nYou have decided not to play this game");
+        printf("Sai bhai pull req report mt krdena pls.")
     }
 }
