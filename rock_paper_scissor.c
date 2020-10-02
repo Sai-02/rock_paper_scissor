@@ -5,17 +5,18 @@
 int main()
 {
 
-    int i, j, k, user, computer, scoreu, scorec;
-    int c, name[50], play;
+    int i, j, k, user, computer, scoreu, scorec, c;
+    int name[50], play;
 
     printf("press 1 to play");
-    scanf("%c", &c);
+    scanf("%d", &c);
     srand(time(NULL));
 
     if (c == 1)
     {
 
-      label:  printf("\n\n\n Enter your name here \n\t\n");
+    label:
+        printf("\n\n\n Enter your name here \n\t\n");
 
         scanf("%s", name);
 
@@ -34,7 +35,7 @@ int main()
             {
 
             case 0:
-                printf("\n\n\nCompuer chosen rock and you too!!!/n/n/n No one won this round");
+                printf("\n\n\nCompuer chosen rock and you too!!!\n\n\n No one won this round");
 
                 scoreu = 0;
                 scorec = 0;
@@ -252,6 +253,5 @@ int main()
     {
 
         printf("\n\n\nYou have decided not to play this game");
-        printf("Sai bhai pull req report mt krdena pls.")
     }
 }
